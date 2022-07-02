@@ -4,6 +4,7 @@ import steam.webauth as wa
 from steampy.guard import generate_one_time_code
 import logging
 import re
+__author__ = "https://t.me/yan00s"
 logging.getLogger("urllib3").setLevel(logging.WARNING)
 logging.basicConfig(encoding='utf-8', level=logging.DEBUG, format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
 
